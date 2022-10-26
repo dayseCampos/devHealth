@@ -1,13 +1,3 @@
-.article__container {
-    opacity: 1;
-    pointer-events: auto;
-}
-
-.article__container-hidden {
-    opacity: 0;
-    pointer-events: none;
-}
-
 #modal-area {
     display: flex;
     flex-direction: column;

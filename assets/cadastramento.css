@@ -5,3 +5,7 @@ body {
     justify-content: center;
     background: #4070f4;
 }
+
+#btn-cadastre {
+    margin: 20% 0;
+}

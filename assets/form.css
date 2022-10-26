@@ -6,11 +6,11 @@
     border-radius: 6px;
     padding: 30px;
     margin: 0 15px;
-    margin-top: -1.7%;
     background-color: #fff;
 }
 
 .container header {
+    margin-top: -6%;
     position: relative;
     font-size: 20px;
     font-weight: 600;
@@ -164,6 +164,7 @@ form .buttons button , .backBtn{
 /*RESULTADO PARAGRAFO CEP*/
 .resultCep {
     color: red;
+    margin: 0 4rem;
 }
 
 #finalizar {

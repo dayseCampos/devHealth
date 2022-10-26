@@ -10,7 +10,18 @@
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    
+    <!--icones-->
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+	<!--fonte-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Paytone+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+    <!--css base-->
+    <link rel="stylesheet" type="text/css" href="assets/base.css">
+
+    <!-- Página Cadastramento -->
     <link rel="stylesheet" href="assets/cadastramento.css">
     <link rel="stylesheet" href="assets/modal.css">
     <link rel="stylesheet" href="assets/form.css">
@@ -24,9 +35,23 @@
     <title>Cadastramento</title>
 </head>
 <body>
+    	<!--header--->
+	<header>
+		<a href="#" class="logo">frontenders</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+		<ul class="barra-menu">
+			<li><a href="#home">Home</a></li>
+			<li><a href="#sobre">Sobre</a></li>
+			<li><a href="#app">Baixe o app</a></li>
+			<li><a href="#contatos">Contato</a></li>
+			<li><a href="#">Nossa equipe</a></li>
+			<li><a href="#"><i class='bx bx-user'></i></a></li>
+		</ul>
+	</header>
     
     <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Launch static backdrop modal</button>
+    <button type="button" id="btn-cadastre" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Cadastre-se</button>
   
     <!-- Modal -->
     <article class="article__container">
@@ -184,7 +209,7 @@
                                                     <i class="uil uil-navigator"></i>
                                                     <span class="btnText">Voltar</span>
                                                 </button>
-                                                <button id="finalizar" data-bs-dismiss="modal" aria-label="Close">
+                                                <button type="button"  class="btn btn-success" data-bs-dismiss="modal" aria-label="Close">
                                                     <span class="btnText">Finalizar</span>
                                                     <i class="uil uil-check-circle"></i>
                                                 </button>
@@ -203,12 +228,16 @@
             </div>
         </div>
     </article>
+
+    <!--js scroll top-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--sticky e responsivo-->
+    <script type="text/javascript" src="scripts/menu.js"></script>
     <!-- botões de ação do form -->
     <script src="scripts/btnForm.js"></script>
     <!-- script para acessar API via CEP-->
     <script src="scripts/viaCep.js"></script>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-
 </body>
 </html>
