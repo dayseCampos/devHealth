@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/reset.css">
+    <!-- unicons CSS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="assets/cadastramento.css">
+    <link rel="stylesheet" href="assets/modal.css">
+    <link rel="stylesheet" href="assets/form.css">
+    <link rel="stylesheet" href="assets/adress.css">
+
+    <!-- Adicionando JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"></script>
+
+    <title>Cadastramento</title>
+</head>
+<body>
+    
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Launch static backdrop modal</button>
+  
+    <!-- Modal -->
+    <article class="article__container">
+        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog" id="modal-area">
+                <div class="modal-content" id="modal-content"> <!-- conteudo sofrendo alterações -->
+                    <div class="modal-header" >
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">FrontEnders - Lista de Espera</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    
+                        <div class="container">
+                            <header>Cadastramento</header>
+                            <form action="#">
+                                    <!-- Primeira Página -->
+                                    <div class="form first">
+                                        <div class="details personal">
+                                            <span class="title">Informações Pessoais</span>
+                                            <div class="fields">
+                                                <div class="input-field">
+                                                    <label for="">Nome Completo</label>
+                                                    <input type="text" id="" placeholder="Insira seu Nome" required>
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Data de Nascimento</label>
+                                                    <input type="date" id="" placeholder="Data de Nascimento" required>
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Qual o seu Gênero</label>
+                                                    <select type="text" id="" required>
+                                                        <option value="0">-</option>    
+                                                        <option value="1">Masculino</option>    
+                                                        <option value="2">Feminino</option>    
+                                                        <option value="3">Outro</option>    
+                                                        <option value="4">Prefiro não dizer</option>    
+                                                    </select>
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Email</label>
+                                                    <input type="text" id="" placeholder="email@exemplo.com" required>
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Número de Celular</label>
+                                                    <input type="text" id="" placeholder="(00)00000-0000" required>
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Ocupação</label>
+                                                    <input type="text" id="" placeholder="Estudante Desenvolvimento Web" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="details user">
+                                            <span class="title">Informações de Usuário</span>
+                                            <div class="fields">
+                                                <div class="input-field">
+                                                    <label for="">Nome de Usuário</label>
+                                                    <input type="text" id="" placeholder="Insira seu apelido" required>
+                                                </div>
+                                                
+                                                <div class="input-field">
+                                                    <label for="">Senha</label>
+                                                    <input type="password" id="" placeholder="" required>
+                                                </div>
+                    
+                                                <div class="input-field">
+                                                    <label for="">Confirmar Senha</label>
+                                                    <input type="password" id="" placeholder="" required>
+                                                </div>
+                                            </div>
+                                            <button class="nextBtn">
+                                                <span class="btnText">Next</span>
+                                                <i class="uil uil-navigator"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                    
+                                    <!-- Segunda Página -->
+                                    <div class="form second">
+                                            <div class="details identification">
+                                            <span class="title">Informações de Identificação</span>
+                    
+                                            <div class="fields">
+                                                
+                                                <div class="input-field">
+                                                    <label for="">Tipo de Documento</label>
+                                                    <select type="text" id="" required>
+                                                        <option value="0">-</option>    
+                                                        <option value="1">CPF</option>    
+                                                        <option value="2">RG</option>    
+                                                        <option value="3">CNH</option>    
+                                                        <option value="4">PASSAPORTE</option>    
+                                                    </select>
+                                                </div>
+                    
+                                                <div class="input-field">
+                                                    <label for="">Número do Documento</label>
+                                                    <input type="text" id="" placeholder="Número do Documento" required>
+                                                </div>
+                    
+                                                <div class="input-field">
+                                                    <label for="">Orgão Emissor</label>
+                                                    <select type="text" id="" required>
+                                                        <option value="0">-</option>    
+                                                        <option value="1">DETRAN</option>    
+                                                        <option value="2">SSP</option>    
+                                                        <option value="3">DIC</option>    
+                                                        <option value="4">DPF</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                            <div class="details address">
+                                            <span class="title">Informações de Endereço</span>
+                                            <div class="fields" id="field-adress">
+                                                <div class="input-field">
+                                                    <label for="">CEP</label>
+                                                    <input type="text" id="cep" placeholder="Insira seu CEP">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Rua</label>
+                                                    <input type="text" id="rua" placeholder="-">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Número</label>
+                                                    <input type="text" id="numero" placeholder="-">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Complemento</label>
+                                                    <input type="text" id="complemento" placeholder="-">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Bairro</label>
+                                                    <input type="text" id="bairro" placeholder="-">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">Cidade</label>
+                                                    <input type="text" id="cidade" placeholder="-">
+                                                </div>
+                                                <div class="input-field">
+                                                    <label for="">UF</label>
+                                                    <input type="text" id="uf" placeholder="-">
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                                                <label class="form-check-label" for="invalidCheck2">
+                                                    Eu aceito os termos e condições.
+                                                </label>
+                                                </div>
+                                            </div>
+                                            <div class="buttons">
+                                                <button class="backBtn">
+                                                    <i class="uil uil-navigator"></i>
+                                                    <span class="btnText">Voltar</span>
+                                                </button>
+                                                <button id="finalizar" data-bs-dismiss="modal" aria-label="Close">
+                                                    <span class="btnText">Finalizar</span>
+                                                    <i class="uil uil-check-circle"></i>
+                                                </button>
+                                                <p class="resultCep"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <!-- botões de ação do form -->
+    <script src="scripts/btnForm.js"></script>
+    <!-- script para acessar API via CEP-->
+    <script src="scripts/viaCep.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>
