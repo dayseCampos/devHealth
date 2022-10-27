@@ -233,7 +233,7 @@ transform: scale(1.04);
 	transition: all .40s ease;
 	cursor: pointer;
 	border: none;
-	width: 400px;
+	width: 90%;
 	padding: 20px;
 	border-radius: 20px;
 }
