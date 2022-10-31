@@ -55,6 +55,10 @@ header{
 	transition: ease .40s;
 }
 
+.logo {
+	color: var(--bg-color);
+}
+
 .barra-menu{
 	display: flex;
 }
@@ -126,6 +130,10 @@ header{
 .footer-principal li a:hover{
 	transform: translateX(-8px);
 	color: var(--second-color);
+}
+
+.footer-principal h3 {
+	color: var(--text-color);
 }
 
 .top{

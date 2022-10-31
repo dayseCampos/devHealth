@@ -308,7 +308,7 @@ transform: scale(1.04);
 .contato-icones i:hover{
 	transform: scale(1.01) translateY(-5px);
 	color: var(--text-color);
-	background: var(--main-color);
+	background: var(--second-color);
 }
 
 .contato-form form{
