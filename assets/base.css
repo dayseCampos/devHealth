@@ -57,6 +57,7 @@ header{
 
 .logo {
 	color: var(--bg-color);
+	font-size: 12px;
 }
 
 .barra-menu{
