@@ -121,6 +121,10 @@ header.sticky{
     line-height: 1.7;
 }
 
+#img2 {
+	display: none;
+}
+
 /*app*/
 .titulo{
 	text-align: center;
@@ -423,6 +427,12 @@ form textarea{
 	}
 	.info img{
 		width: 100%;
+	}
+	#img1 {
+		display: none;
+	}
+	#img2 {
+		display: initial;
 	}
 }
 
