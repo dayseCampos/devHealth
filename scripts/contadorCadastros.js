@@ -36,4 +36,4 @@ let rotacaoNumeros = () => {
 };
 
 rotacaoNumeros();
-setInterval(rotacaoNumeros, 8000)
+setInterval(rotacaoNumeros, 9000)
