@@ -1,0 +1,34 @@
+/*CEP*/
+#field-adress .input-field:nth-child(1) {
+    width: 20%;
+}
+/*RUA*/
+#field-adress .input-field:nth-child(2) {
+    width: 63.4%;
+}
+/*NUMERO*/
+#field-adress .input-field:nth-child(3) {
+    width: 10%;
+}
+/*COMPLEMENTO*/
+#field-adress .input-field:nth-child(4) {
+    width: 20%;
+}
+/*BAIRRO*/
+#field-adress .input-field:nth-child(5) {
+    width: 30%;
+}
+/*CIDADE*/
+#field-adress .input-field:nth-child(6) {
+    width: 30%;
+}
+/*UF*/
+#field-adress .input-field:nth-child(7) {
+    width: 10%;
+}
+
+.form-check-input,
+.form-check-label {
+    cursor: pointer;
+}
+

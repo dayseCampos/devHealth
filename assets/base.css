@@ -71,6 +71,7 @@ header{
 	padding: 10px 22px;
 	border-radius: 4px;
 	transition: ease .40s;
+	text-decoration: none;
 }
 .barra-menu a:hover{
 	background: var(--bg-color);
@@ -150,6 +151,8 @@ header{
 	background: var(--main-color);
 	border-radius: 2rem;
 }
+
+
 
 
 /*media query*/
