@@ -1,0 +1,10 @@
+#modal-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-content {
+    width: 200%;
+}
