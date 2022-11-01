@@ -16,6 +16,7 @@
 	--big-font: 6rem;
 	--h2-font: 3rem;
 	--p-font: 1.1rem;
+	--h1-font: 12px;
 }
 body{
 	background: var(--bg-color);
@@ -57,7 +58,7 @@ header{
 
 .logo {
 	color: var(--bg-color);
-	font-size: 12px;
+	font-size: var(--h1-font);
 }
 
 .barra-menu{
@@ -238,5 +239,8 @@ header{
 	.home{
 		height: 85vh;
 		transition: .2s;
+	}
+	:root{
+	  --h1-font: 7px;
 	}
 }
