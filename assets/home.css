@@ -38,17 +38,6 @@
 	background: var(--bg-color);
 	transform: scale(1.1);
 }
-header.sticky{
-	background: var(--bg-color);
-	padding: 10px 18%;
-	box-shadow: rgba(33,35,38, 0.1) 0px 10px 10px -10px;
-}
-.sticky .logo{
-	color: var(--text-color);
-}
-.sticky .barra-menu a{
-	color: var(--text-color);
-} 
 
 /*detalhes*/
 .itens-icones{
