@@ -48,20 +48,70 @@ h1 {
     }
 }
 
-.slide-cadastro {
+.contador-cadastros {
     width: 90%;
     height: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.156);
+    background: rgba(0, 0, 0, 0.155);
+    background-blend-mode: overlay;
 }
-.slide-cadastro div {
-    width: 50%;
+
+.contador-cadastros div {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contador-cadastros div h2 p {
+    color: var(--main-color);
+    margin-inline: .5rem;
 }
 
 .titulo-chamada {
+    font-size: 2.3rem;
     color: #fff;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    display: inline-flex;
+    margin: 0;
+    vertical-align: top;
+}
+
+.titulo-chamada #usuarios-palavra{
+    margin-inline: .4rem;
+}
+
+.titulo-chamada div {
+    width: 4.2rem;
+    height: 10px;
+}
+
+.contador {
+    position: absolute;
+    display: flex;
+    opacity: 0;
+}
+
+.contador .numero {
+    transform-origin: center center 25px;
+}
+
+.contador .numero.saida {
+    transform: rotateX(90deg);
+    transition: 0.32s cubic-bezier(0.6, 0, 0.7, 0.2);
+}
+
+.contador .numero.entrada {
+    transition: 0.8s ease;
+}
+
+.contador .numero.atras {
+    transform: rotateX(-90deg);
 }
 
 #btn-cadastre {
@@ -72,7 +122,6 @@ h1 {
 .cadastramento__container {
     width: 100%;
 }
-
 
 .sobre {
     display: flex;
