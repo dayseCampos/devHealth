@@ -19,7 +19,6 @@
 	--h1-font: 12px;
 }
 body{
-	background: var(--bg-color);
 	color: var(--text-color);
 }
 
@@ -103,7 +102,7 @@ header.sticky{
 
 /*footer*/
 .footer{
-	background: var(--bg-color);
+	background: transparent;
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, auto));
 	gap: 2rem;
