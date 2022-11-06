@@ -8,3 +8,87 @@
 #modal-content {
     width: 200%;
 }
+
+/*media query*/
+@media (max-width: 1400px){
+    #modal-content {
+        width: 200%;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1040px){
+    #modal-content {
+        width: 140%;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 720px) {
+    #modal-content {
+        width: 100%;
+        height: 110vh;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .form {
+        width: 100%;
+    }
+
+    .input-field label {
+        font-size: 9px;
+    }
+
+    .buttons .backBtn,
+    .buttons #finalizarBtn {
+        width: 100%;
+        display: block;
+    }
+
+    .resultCep {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 575px){
+    #modal-content {
+        width: 80%;
+        height: 120vh;
+    }
+
+    .container {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .input-field label {
+        font-size: 8px;
+    }
+
+    .buttons .backBtn,
+    .buttons #finalizarBtn {
+        width: 100%;
+        display: block;
+    }
+
+    .resultCep {
+        font-size: 12px;
+        background-color: grey;
+    }
+}

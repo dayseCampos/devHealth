@@ -1,0 +1,116 @@
+
+.formRec-control{
+    margin-bottom: 10px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.formLogin a{
+  text-decoration: none;
+}
+
+.formRec-control{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control label {
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.formRec-control input{
+    border: 2px solid white;
+    display:block;
+    border-radius: 10px;
+    font-size: 14px;
+    width: 465px;
+    padding: 10px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.formRec-control i{
+    position:absolute;
+    top: 37px;
+    right: 10px;
+    visibility: hidden;
+}
+
+.formRec-control small{
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    visibility: hidden;
+}
+
+.messagemEnviada{
+  visibility: hidden;
+}
+
+.messagemEnviadaShow{
+  visibility: visible;
+  color: #2ecc71;
+  position: relative;
+  bottom: 0;
+  top: 40px;
+  width: 350px;
+  white-space: 100%;
+  font-size: 15px;
+ 
+}
+
+.formRec .butRex{
+    background-color: #56c7d1;
+    border: 2px solid #56c7d1;
+    color: #fff;
+    font-size: 14px;
+    width:50%;
+    border-radius: 10px;
+    padding: 11px;
+    
+    
+}
+
+.formLogin button{
+    position: relative;
+    float: right;
+}
+
+.formLogin p{
+    font-size: 13px;
+    text-align: right;
+}
+
+
+
+/*Sucesso e Erro*/
+
+.formRec-control.success input {
+    border-color: #2ecc71;
+  }
+  
+  .formRec-control.error input {
+    border-color: #e74c3c;
+  }
+  
+  .formRec-control.success i.fa-check-circle {
+    color: #2ecc71;
+    visibility: visible;
+  }
+  
+  .formRec-control.error i.fa-exclamation-circle {
+    color: #e74c3c;
+    visibility: visible;
+  }
+  
+  .formRec-control.error small {
+    visibility: visible;
+    color: #e74c3c;
+  }
+
+
+  .formRec-control.success small{
+    visibility: visible;
+    color:#2ecc71;
+  }

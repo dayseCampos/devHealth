@@ -131,7 +131,6 @@ h1 {
     justify-content: space-evenly;
 }
 
-
 .sobre .img-sobre {
     width: 40%;
 }
@@ -179,4 +178,158 @@ h1 {
 
 .footer-principal h3 {
     font-weight: bold;
+}
+
+/*media query*/
+@media (max-width: 1400px){
+    .footer {
+        margin-top: -5rem;
+        
+    }
+}
+
+@media (max-width: 1040px){
+    body {
+        height: 100px;
+        display: block;
+    }
+
+    .cadastramento__container {
+        width: 90%;
+        height: 50vh;
+        margin: 0 auto;
+        margin-bottom: 15rem;
+    }
+
+    .sobre {
+        display: flex;
+        width: 100%;
+        border: 1px solid var(--main-color);
+    }
+
+    .texto-sobre {
+        width: 60%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sobre .img-sobre {
+        width: 40%;
+    }
+
+    .footer {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 720px) {
+    body {
+        min-height: 300vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .cadastramento__container {
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        margin-bottom: 24rem;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        border: 1px solid var(--main-color);
+        border-top: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .texto-sobre {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sobre .img-sobre {
+        margin-top: 2em;
+        width: 80%;
+    }
+    
+    .sobre .img-sobre img {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 2rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media (max-width: 575px){
+    body {
+        min-height: 300vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    .contador-cadastros div h2 {
+        font-size: 1.5rem;
+    }
+
+    .titulo-chamada div {
+        width: 2.5rem;
+        height: 10px;
+    }
+
+    .cadastramento__container {
+        width: 90%;
+        height: 100vh;
+        margin: 0 auto;
+        margin-bottom: 24rem;
+    }
+
+    .sobre {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        border: 1px solid var(--main-color);
+        border-top: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .texto-sobre {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sobre .img-sobre {
+        margin-top: 2em;
+        width: 80%;
+    }
+    
+    .sobre .img-sobre img {
+        width: 100%;
+    }
+
+    .footer {
+        margin-top: 1rem;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
