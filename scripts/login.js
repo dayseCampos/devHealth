@@ -1,10 +1,15 @@
+const formLogin = document.getElementById("formLogin");
+
 const form = document.getElementById("form");
 
 const email = document.getElementById("email");
 
 const password = document.getElementById("password");
 
+formLogin.addEventListener("submit", (e)=> {
+
 form.addEventListener("submit", (e)=> {
+
     e.preventDefault();
 
     checkInputs();
@@ -35,7 +40,10 @@ function checkInputs(){
     }
 
 
+    const formControls = formLogin.querySelectorAll(".form-control")
+
     const formControls = form.querySelectorAll(".form-control")
+
 
     const formIsValid = [...formControls].every((formControl) =>{
         return (formControl.className === "form-control success");
@@ -53,6 +61,12 @@ function checkInputs(){
  
 
 }
+
+/*function test(e){
+    e.preventDefault();
+
+    checkInputs();
+}*/
 
 
 
