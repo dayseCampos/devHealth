@@ -37,11 +37,7 @@
 .home-btn:hover{
 	background: var(--bg-color);
 	transform: scale(1.1);
-	box-shadow: 0 3px 0 0 #ffffffa2;
 }
-.home-btn:active {
-	-webkit-transform: translateY(3px);
-	transform: translateY(3px);  }
 
 /*detalhes*/
 .itens-icones{
@@ -384,12 +380,6 @@ form textarea{
 	transition: all .40s ease;
 	cursor: pointer;
 }
-.contato-form form .enviar:hover{
-	box-shadow: 0 3px 0 0 #ce9a00;
-}
-.contato-form form .enviar:active {
-	-webkit-transform: translateY(3px);
-	transform: translateY(3px);  }
 
 
 /*media query*/
