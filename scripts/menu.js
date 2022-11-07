@@ -19,11 +19,11 @@ window.onscroll = () => {
 	navbar.classList.remove('open');
 };
 
-//delay footer
 const sr = ScrollReveal ({
 	distance: '30px',
 	duration: 2600,
 	reset: true
 })
 
+//delay footer
 sr.reveal('.footer',{delay:200, origin:'bottom'})
