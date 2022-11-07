@@ -5,9 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Dev Health</title>
-  
-  <!--Bootstrap modal-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+ 
   <!--css home-->
   <link rel="stylesheet" type="text/css" href="assets/contato.css">
   <!--css base-->
@@ -151,79 +149,7 @@
     </div>
   </section>
 
-  <!-- Tela login -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          
-          <!--Formulario-->
-          <form id="formLogin" class="formLogin">
-          
-            <div class="form-control">
-              <label for="">Email</label>
-              <input type="text" id="email" placeholder="digite seu email..."/>
-              <p><small>Mensagem de Erro</small></p>
-              <i class="fas fa-exclamation-circle"></i>
-              <i class="fas fa-check-circle"></i>
-            </div>
-          
-            <div class="form-control">
-              <label for="">Senha</label>
-              <input type="password" id="password" placeholder="digite sua senha..."/>
-              <p><small>Mensagem de Erro</small></p>
-              <i class="fas fa-exclamation-circle"></i>
-              <i class="fas fa-check-circle"></i>
-            </div>
-      
-            <!--Tela Esqueci a senha-->
-            <a href="#" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"><p>Esqueci a senha</p></a>
-        
-            <!--Butão submit-->
-            <button type="submit" id="submit" class="butSub" >Conectar-se</button>
-        
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-    <!--MODAL 2-->
-  <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
-    <div class="modal-dialog modal-dialog-centered">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">Recuperar acesso</h1>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-
-          <!--Formulario 2-->
-          <form id="formRec" class="formRec"> 
-
-            <div class="formRec-control">
-              <label for="email" id="emailRec2"></label>
-              <input type="text" id="emailRec" placeholder="digite seu email de recuperação...">
-              <i class="fas fa-exclamation-circle"></i>
-              <i class="fas fa-check-circle"></i>
-              <small class="messagemError" id="messagemError">Mensagem de erro</small>
-            </div>
-
-            <!--Voltar pra tela de login-->
-            <a href="#" type="button" id="submit2" class="butRec" data-bs-toggle="modal" data-bs-target="#exampleModal"><p>Voltar para área de login</p></a>
-
-            <!--Butão submit-->
-            <button type="submit" id="submitRec" class="butRex">Enviar email de recuperação</button>
-      
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
+  
 
   <!--sticky e responsivo-->
   <script type="text/javascript" src="scripts/menu.js"></script>

@@ -1,3 +1,17 @@
+h1 {
+  font-family: 'Poppins', sans-serif;
+font-weight: bold;
+  font-size: 2em;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
 
 .formLogin{
     padding: 20px;
